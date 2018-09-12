@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset {
+    border: none;
+}
+
+body {
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 0;
+    font-family: "Exo 2.0";
+    font-weight: 300;
+    background-color: rgba(149, 148, 149, 0.79);
+}
+span{
+    font-size: 16px;
+    color: #323232;
+}
+a{
+    font-size: 16px;
+    color: #323232;
+}
+p{
+    color: #323232;
+    font-size: 16px;
+}
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
+
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    outline: none;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.cfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.phoneBold{
+    font-weight: 700;
+}
+h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #323232;
+}
+.bannerRight p{
+    line-height: 23px;
+}
+.bannerAboutButton button{
+    color: #ffffff;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    background: #a8d7ff;
+}
+.headerLogo{
+    height: 60px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #db0c2c ;
+    float: left;
+}
+.navMenu {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding: 20px 0 0 82px ;
+    height: 60px;
+}
+.navMenu li+li{
+    margin-left: 62px ;
+}
+.headerContacts{
+    max-width: 180px;
+    float: right;
+    text-align: right;
+    padding: 10px 0 0 0;
+}

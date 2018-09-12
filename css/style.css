@@ -94,9 +94,13 @@ h2{
     color: #ffffff;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding:  0 15px;
 }
+
+
+                    /* HEADER */
 header{
     background: #a8d7ff;
 }
@@ -111,16 +115,84 @@ header{
 .navMenu {
     display: flex;
     float: left;
-    justify-content: space-between;
-    padding: 20px 0 0 82px ;
+    justify-content: space-evenly;
+    width: calc(100% - 300px);
     height: 60px;
+    padding: 18px 0 0 20px;
 }
-.navMenu li+li{
-    margin-left: 62px ;
+.navMenu li{
+    height: 30px;
 }
+.navMenu li:hover{
+    border-bottom: 2px solid #db0c2c;
+}
+
 .headerContacts{
-    max-width: 180px;
+    max-width: 200px;
     float: right;
     text-align: right;
-    padding: 10px 0 0 0;
+    padding: 5px 14px 0 0;
+    vertical-align: middle;
+}
+.headerContacts span{
+    line-height: 24px;
+
+}
+span[class*=icon]{
+    padding-right: 4px;
+}
+span[class=icon-phone]{
+    font-size: 12px;
+}
+span[class=icon-mail]{
+    font-size: 14px;
+}
+                            /*BANNER*/
+.banner {
+    min-height: 490px;
+    background-color: #e6e6e6;
+}
+.bannerWrapper{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerLeftWrapper{
+    width: 65.8%;
+    height: 430px;
+    padding: 30px;
+}
+
+.bannerRight{
+    width: 31.6%;
+    background-color: #fff;
+    height: 430px;
+    padding: 25px 0 0 30px;
+}
+.bannerLeft{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.bannerLeft:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 479px;
+    height: 250px;
+    z-index: -1;
+    background-image: url(../img/png/bannerfront.png);
+}
+.bannerLeft:before{
+    content: url("../img/svg/bannerborder.svg");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
 }

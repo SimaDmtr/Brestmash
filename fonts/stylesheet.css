@@ -20,3 +20,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Exo 2.0';
+    src: url('Exo20-Medium.eot');
+    src: local('Exo 2.0 Medium'), local('Exo2.0-Medium'),
+    url('Exo20-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Exo20-Medium.woff') format('woff'),
+    url('Exo20-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

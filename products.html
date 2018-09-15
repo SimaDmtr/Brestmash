@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Продукция</title>
+    <title>Продукты</title>
+    <meta name="viewport" content="wight=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="headerLogo"></div>
-        <ul class="navmenu">
+<header class="page">
+    <div class="container cfix">
+        <div class="headerLogo" style="background-image: url(img/png/logoHead.png)"></div>
+        <ul class="navMenu">
             <li><a href="main.html">Главная</a></li>
             <li><a href="products.html">Продукция</a></li>
             <li><a href="dealers.html">Дилеры</a></li>
@@ -17,58 +25,77 @@
             <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <div class="headerContacts">
-            <a href="tel:+375162287042">+375 (162) <span class="phoneBold">28-70-42</span></a>
-            <a href="mailto:bmz@inbox.ru">bmz@inbox.ru</a>
+            <span class="icon-phone"></span><a href="tel:+375162287042">+375 (162) <span
+                class="phoneBold"> 28-70-42</span></a>
+            <span class="icon-mail"></span><a href="mailto:bmz@inbox.ru">bmz@inbox.ru</a>
         </div>
     </div>
 </header>
 <div class="content">
-    <div class="container">
-        <div class="productsMore">
-            <ul class="breadcrumbs">
+    <div class="productsPage">
+        <div class="container">
+            <ul class="breadcrumbs cfix">
                 <li><a href="main.html">Главная</a></li>
                 <li><a href="products.html">Продукция</a></li>
-                <li><a href="#">Пишевая переработка</a></li>
+                <li><a href="#">Пищевая переработка</a></li>
             </ul>
-            <div class="productsWrapper">
-                <ul class="productsTabs">
-                    <li><span>Пищевая переработка</span></li>
-                    <li><span>Народное потребление</span></li>
-                    <li><span>Комплектующие к плитам</span></li>
-                    <li><span>Металлоконструкции</span></li>
-                    <li><span>Другое</span></li>
+            <div class="productsPageWrapper">
+                <ul class="productsLeftMenu">
+                    <li class="invisLink"><a href="products.html"></a><div><a href="products.html">Пищевая переработка</a></div></li>
+                    <li class="invisLink"><a href="#"></a><div><a href="#">Народное потребление</a></div></li>
+                    <li class="invisLink"><a href="#"></a><div><a href="#">Комплектующие к плитам</a></div></li>
+                    <li class="invisLink"><a href="#"></a><div><a href="#">Металлоконструкции</a></div></li>
+                    <li class="invisLink"><a href="#"></a><div><a href="#">Другое</a></div></li>
                 </ul>
-                <ul class="productsItemsMore">
-                    <li><img src="" alt=""><span>Товары народного потребления</span></li>
-                    <li><img src="" alt=""><span>Комплектующие к плитам</span></li>
-                    <li><img src="" alt=""><span>Металлические конструкции</span></li>
-                </ul>
+                <div class="productsItems">
+                    <div class="prodItemWrapper">
+                        <div class="prodItem" style="background: url(img/jpeg/products5.jpg)">
+                            <div class="hovered invisLink"><a href="#"></a><span>Перейти</span></div>
+                        </div>
+                        <span class="prodItemTitle">Оборудование для<br>первичной переработки</span>
+                    </div>
+                    <div class="prodItemWrapper">
+                        <div class="prodItem" style="background: url(img/jpeg/products3.jpg)">
+                            <div class="hovered invisLink"><a href="#"></a><span>Перейти</span></div>
+                        </div>
+                        <span class="prodItemTitle">Комплектующие для<br>газовых плит</span>
+                    </div>
+                    <div class="prodItemWrapper">
+                        <div class="prodItem" style="background: url(img/jpeg/products6.jpg)">
+                            <div class="hovered invisLink"><a href="#"></a><span>Перейти</span></div>
+                        </div>
+                        <span class="prodItemTitle">Металлические<br>конструкции</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<footer>
+<footer class="page">
     <div class="container">
-        <div class="footerLogo"></div>
-        <ul class="footerMenu">
-            <li><a href="main.html">Главная</a></li>
-            <li><a href="products.html">Продукция</a></li>
-            <li><a href="dealers.html">Дилеры</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="about.html">О компании</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul>
-            <li><a href="tel:+375162287042">+375 (162) <span class="phoneBold">28-70-42</span></a></li>
-            <li><a href="tel:+375162288934">+375 (162) <span class="phoneBold">28-89-34</span> (Fax)</a></li>
-            <li><a href="tel:+375162288967">+375 (162) <span class="phoneBold">28-89-67</span> (Приемная)</a></li>
-            <li><span>Республика Беларусь, 224002,</span></li>
-            <li><span>г.Брест, ул. Суворова, 21в</span></li>
-            <li><a href="mailto:bmz@inbox.ru">bmz@inbox.ru</a></li>
-        </ul>
-        <div class="footerRight">
-            <button class="callback">Обратный звонок</button>
-            <div class="createdBy"></div>
+        <div class="footerWrapper">
+            <div class="footerLogo"></div>
+            <ul class="footerMenu">
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="products.html">Продукция</a></li>
+                <li><a href="dealers.html">Дилеры</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="fotContact">
+                <li><span class="icon-phone"></span><a href="tel:+375162287042">+375 (162) <span class="phoneBold">28-70-42</span></a>
+                </li>
+                <li><a href="tel:+375162288934">+375 (162) <span class="phoneBold">28-89-34</span> (Fax)</a></li>
+                <li><a href="tel:+375162288967">+375 (162) <span class="phoneBold">28-89-67</span> (Приемная)</a></li>
+                <li><span class="icon-room"></span><span>Республика Беларусь, 224002,</span></li>
+                <li><span>г.Брест, ул. Суворова, 21в</span></li>
+                <li><span class="icon-mail"></span><a href="mailto:bmz@inbox.ru">bmz@inbox.ru</a></li>
+            </ul>
+            <div class="footerRight">
+                <button class="callback"><span>Обратный звонок</span></button>
+                <div class="createdBy"></div>
+            </div>
         </div>
     </div>
 </footer>
